@@ -540,7 +540,7 @@ p {
   width: 264px;
   height: 40px;
   background-color: transparent;
-  box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .subscribe-form-input::placeholder {
@@ -697,6 +697,10 @@ p {
 
 .review-form-field-wrapper {
   margin-bottom: 8px;
+}
+
+.review-form-field-comment-wrapper {
+  margin-bottom: 16px;
 }
 
 .review-form-field-icon {
