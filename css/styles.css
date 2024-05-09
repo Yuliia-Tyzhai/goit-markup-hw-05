@@ -439,8 +439,8 @@ p {
 .page-footer {
   background: #2e2f42;
   max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: auto; 
+  margin-right: auto; 
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -578,13 +578,12 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-left: 16px;
 }
 
-.page-footer-form-container {
-  display: flex;
+.footer-form-label {
   margin-left: 80px;
-  flex-direction: row;
-  align-items: center;
- 
+}
 
+.page-footer-form-container {
+ display: block;
 }
 
 /* ===============BACKDROP STYLES=============== */
